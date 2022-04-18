@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29215.179
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AutoUpdater.NET", "AutoUpdater.NET\AutoUpdater.NET.csproj", "{FB9E7E6B-B19F-4F37-A708-2996190CEF13}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AutoUpdater.NET", "AutoUpdater.NET\AutoUpdater.NET.csproj", "{FB9E7E6B-B19F-4F37-A708-2996190CEF13}"
 	ProjectSection(ProjectDependencies) = postProject
 		{91DE558C-6DB8-429B-A069-C0491DCFF15B} = {91DE558C-6DB8-429B-A069-C0491DCFF15B}
 	EndProjectSection
@@ -20,9 +20,29 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		README.md = README.md
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ZipExtractor", "ZipExtractor\ZipExtractor.csproj", "{EDB311FC-50D3-468B-AC36-4CDFE04D29A3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZipExtractor", "ZipExtractor\ZipExtractor.csproj", "{91DE558C-6DB8-429B-A069-C0491DCFF15B}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Base.WpfBase", "..\WPF-Controls\Source\Base\HeBianGu.Base.WpfBase\HeBianGu.Base.WpfBase.csproj", "{BC897D7F-56A5-4001-BCF5-3A3DEBA8894F}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HeBianGu.Base.WpfBase.Share", "..\WPF-Controls\Source\Base\HeBianGu.Base.WpfBase.Share\HeBianGu.Base.WpfBase.Share.shproj", "{B98576A8-72EA-4DAA-B8E6-9A2D7D025057}"
+EndProject
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "HeBianGu.General.WpfControlLib.Share", "..\WPF-Controls\Source\General\HeBianGu.General.WpfControlLib.Share\HeBianGu.General.WpfControlLib.Share.shproj", "{C59A933C-7AE0-4DBC-8530-99BF90BB8CD7}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.General.WpfControlLib", "..\WPF-Controls\Source\General\HeBianGu.General.WpfControlLib\HeBianGu.General.WpfControlLib.csproj", "{C4E9AF86-6238-4C44-BCA8-8F8CAC09E3E9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Systems.Upgrade", "..\WPF-Controls\Source\System\HeBianGu.Systems.Upgrade\HeBianGu.Systems.Upgrade.csproj", "{C9778368-07FB-49D8-A716-8FE7A13EF6E0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Service.Animation", "..\WPF-Controls\Source\Service\HeBianGu.Service.Animation\HeBianGu.Service.Animation.csproj", "{A4936F61-D4B0-463A-86B5-3E06ECFE7874}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HeBianGu.Service.AppConfig", "..\WPF-Controls\Source\Service\HeBianGu.Service.AppConfig\HeBianGu.Service.AppConfig.csproj", "{BCC2FF51-98E6-41BA-90DB-F6045E744553}"
 EndProject
 Global
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		..\WPF-Controls\Source\Base\HeBianGu.Base.WpfBase.Share\HeBianGu.Base.WpfBase.Share.projitems*{b98576a8-72ea-4daa-b8e6-9a2d7d025057}*SharedItemsImports = 13
+		..\WPF-Controls\Source\Base\HeBianGu.Base.WpfBase.Share\HeBianGu.Base.WpfBase.Share.projitems*{bc897d7f-56a5-4001-bcf5-3a3deba8894f}*SharedItemsImports = 5
+		..\WPF-Controls\Source\General\HeBianGu.General.WpfControlLib.Share\HeBianGu.General.WpfControlLib.Share.projitems*{c4e9af86-6238-4c44-bca8-8f8cac09e3e9}*SharedItemsImports = 5
+		..\WPF-Controls\Source\General\HeBianGu.General.WpfControlLib.Share\HeBianGu.General.WpfControlLib.Share.projitems*{c59a933c-7ae0-4dbc-8530-99bf90bb8cd7}*SharedItemsImports = 13
+	EndGlobalSection
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
 		Release|Any CPU = Release|Any CPU
@@ -40,10 +60,30 @@ Global
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9AEE4F21-5ED5-4C7E-9249-8A680123B5E3}.Release|Any CPU.Build.0 = Release|Any CPU
-		{EDB311FC-50D3-468B-AC36-4CDFE04D29A3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{EDB311FC-50D3-468B-AC36-4CDFE04D29A3}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{EDB311FC-50D3-468B-AC36-4CDFE04D29A3}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{EDB311FC-50D3-468B-AC36-4CDFE04D29A3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{91DE558C-6DB8-429B-A069-C0491DCFF15B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{91DE558C-6DB8-429B-A069-C0491DCFF15B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{91DE558C-6DB8-429B-A069-C0491DCFF15B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{91DE558C-6DB8-429B-A069-C0491DCFF15B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BC897D7F-56A5-4001-BCF5-3A3DEBA8894F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BC897D7F-56A5-4001-BCF5-3A3DEBA8894F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BC897D7F-56A5-4001-BCF5-3A3DEBA8894F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BC897D7F-56A5-4001-BCF5-3A3DEBA8894F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C4E9AF86-6238-4C44-BCA8-8F8CAC09E3E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C4E9AF86-6238-4C44-BCA8-8F8CAC09E3E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C4E9AF86-6238-4C44-BCA8-8F8CAC09E3E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C4E9AF86-6238-4C44-BCA8-8F8CAC09E3E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C9778368-07FB-49D8-A716-8FE7A13EF6E0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C9778368-07FB-49D8-A716-8FE7A13EF6E0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C9778368-07FB-49D8-A716-8FE7A13EF6E0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C9778368-07FB-49D8-A716-8FE7A13EF6E0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4936F61-D4B0-463A-86B5-3E06ECFE7874}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4936F61-D4B0-463A-86B5-3E06ECFE7874}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4936F61-D4B0-463A-86B5-3E06ECFE7874}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4936F61-D4B0-463A-86B5-3E06ECFE7874}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BCC2FF51-98E6-41BA-90DB-F6045E744553}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BCC2FF51-98E6-41BA-90DB-F6045E744553}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BCC2FF51-98E6-41BA-90DB-F6045E744553}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BCC2FF51-98E6-41BA-90DB-F6045E744553}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

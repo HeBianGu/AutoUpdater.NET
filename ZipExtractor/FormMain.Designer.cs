@@ -63,13 +63,14 @@
             this.textBoxInformation.BorderStyle = System.Windows.Forms.BorderStyle.None;
             this.textBoxInformation.Location = new System.Drawing.Point(96, 20);
             this.textBoxInformation.Name = "textBoxInformation";
-            this.textBoxInformation.Size = new System.Drawing.Size(514, 16);
+            this.textBoxInformation.Size = new System.Drawing.Size(514, 20);
             this.textBoxInformation.TabIndex = 4;
             this.textBoxInformation.Text = "Extracting...";
+            this.textBoxInformation.TextChanged += new System.EventHandler(this.textBoxInformation_TextChanged);
             // 
             // FormMain
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(7F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.AutoSize = true;
             this.ClientSize = new System.Drawing.Size(624, 100);

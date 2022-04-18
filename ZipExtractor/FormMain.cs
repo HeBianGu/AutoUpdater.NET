@@ -279,5 +279,10 @@ namespace ZipExtractor
             File.AppendAllText(Path.Combine(AppDomain.CurrentDomain.BaseDirectory, "ZipExtractor.log"),
                 _logBuilder.ToString());
         }
+
+        private void textBoxInformation_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

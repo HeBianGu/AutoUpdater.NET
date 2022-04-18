@@ -16,7 +16,7 @@
         <ApplicationIcon>ZipExtractor.ico</ApplicationIcon>
         <ApplicationManifest>app.manifest</ApplicationManifest>
         <SignAssembly>true</SignAssembly>
-        <AssemblyOriginatorKeyFile>ZipExtractor.snk</AssemblyOriginatorKeyFile>
+        <!--<AssemblyOriginatorKeyFile>ZipExtractor.snk</AssemblyOriginatorKeyFile>-->
         <NeutralLanguage>en</NeutralLanguage>
         <LangVersion>default</LangVersion>
         <IsPackable>false</IsPackable>
